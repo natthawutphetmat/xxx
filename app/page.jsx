@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import Nav from './components/nav'
 import Link from 'next/link'
-import head from "next/head";
+
 
 
 export const metadata = {
