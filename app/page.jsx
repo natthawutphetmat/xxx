@@ -3,7 +3,6 @@ import Image from 'next/image'
 import React from 'react'
 import Nav from './components/nav'
 import Link from 'next/link'
-import Script from 'next/script';
 import Head from "next/head";
 
 
@@ -21,21 +20,21 @@ export default async function Home() {
 
 
    <Head>
-<Script async src="https://www.googletagmanager.com/gtag/js?id=AW-16549026809"></Script>
-<Script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16549026809"></script>
+<script>
 {`
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', 'AW-16549026809');
             `}
-</Script>
+</script>
 
-<Script>
+<script>
 {`
               gtag('event', 'conversion', {'send_to': 'AW-16549026809/1mLzCLzwyasZEPm3mNM9'});
             `}
-</Script>
+</script>
 
 
 
