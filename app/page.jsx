@@ -3,7 +3,8 @@ import Image from 'next/image'
 import React from 'react'
 import Nav from './components/nav'
 import Link from 'next/link'
-
+import Script from 'next/script';
+import Head from "next/head";
 
 
 export const metadata = {
@@ -17,7 +18,28 @@ export default async function Home() {
 
   return (
     <>
-   
+
+
+   <Head>
+<Script async src="https://www.googletagmanager.com/gtag/js?id=AW-16549026809"></Script>
+<Script>
+{`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-16549026809');
+            `}
+</Script>
+
+<Script>
+{`
+              gtag('event', 'conversion', {'send_to': 'AW-16549026809/1mLzCLzwyasZEPm3mNM9'});
+            `}
+</Script>
+
+
+
+</Head>
       <div className="container-fluid">
        <Nav/>
        <div className="cut"></div>
