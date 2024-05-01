@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import Nav from './components/nav'
 import Link from 'next/link'
-import Head from "next/head";
+import head from "next/head";
 
 
 export const metadata = {
@@ -19,7 +19,7 @@ export default async function Home() {
     <>
 
 
-   <Head>
+   <head>
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16549026809"></script>
 <script>
 {`
@@ -38,7 +38,7 @@ export default async function Home() {
 
 
 
-</Head>
+</head>
       <div className="container-fluid">
        <Nav/>
        <div className="cut"></div>
