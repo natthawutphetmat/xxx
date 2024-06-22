@@ -19,26 +19,7 @@ export default async function Home() {
     <>
 
 
-   <head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16618333513"></script>
-<script>
-{`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'AW-16618333513');
-            `}
-</script>
-
-<script>
-{`
-              gtag('event', 'conversion', {'send_to': 'AW-16618333513/1mLzCLzwyasZEPm3mNM9'});
-            `}
-</script>
-
-
-
-</head>
+ 
       <div className="container-fluid">
        <Nav/>
        <div className="cut"></div>
