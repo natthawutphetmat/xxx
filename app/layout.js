@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
+      <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Your Website Title</title>
@@ -28,7 +28,9 @@ export default function RootLayout({ children }) {
             gtag('event', 'conversion', {'send_to': 'AW-16618333513/1mLzCLzwyasZEPm3mNM9'});
           `
         }} />
-      </Head>
+      </head>
+
+  
       <body className={inter.className}>
         {children}
       </body>
